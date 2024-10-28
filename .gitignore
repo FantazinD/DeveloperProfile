@@ -2,6 +2,7 @@
 
 # Custom
 /public/images
+/.cache
 
 # Compiled output
 /dist

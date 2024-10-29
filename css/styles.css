@@ -3,6 +3,7 @@
     --color-secondary: #00d9ff;
     --color-accent-secondary: #e66000;
     --color-accent: #ff3400;
+    --color-red: #ff0000;
     --color-headings: #1b0760;
     --color-body: #918ca4;
     --color-body-darker: #5c5577;
@@ -87,7 +88,7 @@ a {
 }
 
 .link-arrow {
-    color: var(--color-accent-secondary);
+    color: var(--color-red);
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: bold;
@@ -718,10 +719,12 @@ a {
 
 .section__content .content__item {
     display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
-.content__item .icon {
-    margin-right: 1rem;
+.content__item p {
+    padding-top: 2rem;
 }
 
 .footer__heading {
@@ -755,6 +758,10 @@ a {
 
     .footer__sections {
         flex-direction: column-reverse;
+    }
+
+    .content__item p {
+        padding-top: 1rem;
     }
 
     .footer__brand {

@@ -595,6 +595,11 @@ a {
     margin: 2rem 0 5rem;
 }
 
+.hero__image {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
 @media screen and (min-width: 768px) {
     .hero__content {
         text-align: left;
@@ -718,6 +723,7 @@ a {
 }
 
 .section__content .content__item {
+    margin-bottom: -2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -758,6 +764,10 @@ a {
 
     .footer__sections {
         flex-direction: column-reverse;
+    }
+
+    .section__content .content__item {
+        margin-bottom: 0;
     }
 
     .content__item p {

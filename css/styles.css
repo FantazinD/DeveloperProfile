@@ -611,6 +611,10 @@ a {
     .hero {
         padding-top: 0;
     }
+
+    .hero__image {
+        margin-top: 5rem;
+    }
 }
 
 /* Domain Block */

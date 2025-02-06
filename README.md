@@ -1,4 +1,4 @@
 # DeveloperProfile
-Developer Profile created with HTML5 &amp; CSS3
+Developer Profile created with HTML5 &amp; CSS3.
 
 Deployed in Azure cloud
